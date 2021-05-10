@@ -559,7 +559,7 @@
 
 /**
  * Prevent extrusion if the temperature is below EXTRUDE_MINTEMP.
- * Add M302 to set the minimum extrusion temperature and/or turn
+ * Add M302 to set the minimum extrusion temperature and/or turn 
  * cold extrusion prevention on and off.
  *
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
@@ -741,8 +741,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 1000, 50 } //{ 80, 80, 400, 500 }
-//{ 5120, 5120, 1000, 50 }??
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 800, 500 } //{ 80, 80, 400, 500 }
+//{ 800, 800, 1000, 50 }??
 
 /**
  * Default Max Feed Rate (mm/s)
